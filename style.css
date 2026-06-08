@@ -1,0 +1,28 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    background: radial-gradient(circle at center, #1a1a2e 0%, #0f0f1a 100%);
+}
+
+.cyber-font {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.cyber-glow {
+    text-shadow: 0 0 10px #00f2fe, 0 0 20px #00f2fe;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar-fill {
+    transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.drag-over-active {
+    border-color: #00f2fe !important;
+    background-color: rgba(0, 242, 254, 0.05) !important;
+}
